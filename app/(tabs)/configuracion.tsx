@@ -1,6 +1,5 @@
-import { Platform, StyleSheet } from 'react-native';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
+import { StyleSheet } from 'react-native';
+import { ThemedText } from '@/src/modules/core/components/themed-text';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
 export default function TabTwoScreen() {

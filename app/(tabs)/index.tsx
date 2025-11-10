@@ -1,15 +1,17 @@
-import { SafeAreaView, StyleSheet } from 'react-native';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { StyleSheet } from 'react-native';
+import { ThemedText } from '@/src/modules/core/components/themed-text';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import Card from "@/src/modules/core/components/Card.js"
 
 export default function HomeScreen() {
   return (
     <SafeAreaProvider>
       <SafeAreaView>
+
           <ThemedText>
             Estea es el area de home.
           </ThemedText>
+          <Card></Card>
       </SafeAreaView>
     </SafeAreaProvider>
   );
